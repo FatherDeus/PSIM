@@ -1,0 +1,4 @@
+gfortran psim.f90 -o psim
+./psim
+./sort.py tkexyz
+gnuplot graphall.txt
